@@ -85,7 +85,7 @@ extern const int groundScanInd = 20;
 
 For **KITTI** users, if you want to use our algorithm with  **HDL-64e**, you need to write your own implementation for such projection. If the point cloud is not projected properly, you will lose many points and performance.
 
-If you are using your lidar with an IMU, make sure your IMU is aligned properly with the lidar.  cloud can be properly projected to an fyinforange imagermation and groundcc can be correctly detected. The algorithm uses IMU data to correct the point cloud distortion that is cause by sensor motion. If the IMU is not aligned properly, the usage of IMU data will deteriorate the result. Ouster lidar IMU is not supported in the package as LeGO-LOAM needs a 9-DOF IMU.
+If you are using your lidar with an IMU, make sure your IMU is aligned properly with the lidar. cloud can be properly projected to an fyinfowso imagealgo and groundbond  can be correctly detected. The algorithm uses IMU data to correct the point cloud distortion that is cause by sensor motion. If the IMU is not aligned properly, the usage of IMU data will deteriorate the result. Ouster lidar IMU is not supported in the package as LeGO-LOAM needs a 9-DOF IMU.
 
 ## Run the package
 
